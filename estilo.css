@@ -1,0 +1,332 @@
+
+
+
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: "arcond";
+    src: url('./fontes/masque.ttf') format('opentype');
+    font-weight:normal;
+}
+
+
+
+:root {
+        
+    --cor0: #6092E0;
+    --cor1: #798AA6;
+    --cor2: #406094;
+    --cor3: #A4BBE0;
+    --cor4: #2A3F61; 
+
+
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+
+#foto_principal {
+                    background-color: var(--cor3);
+                    width: 100%;
+                    
+}                   
+
+#foto_principal > img {
+
+                      width: 100%;                   
+                    }
+  header{ 
+      background-image: linear-gradient( to bottom, var(--cor4), var(--cor1));
+      height: 90px;
+      padding-left: 2px;
+      width: 100%;
+
+      
+     }
+
+     h1{    
+            font-family: 'arcond';
+            color: var(--cor3);
+            text-shadow: 1px 1px black;
+                    
+    }
+
+
+                  #topo{
+                       background-color:var(--cor1);
+                        height: 30px;
+
+                        }
+
+                        #menu{
+                             background-color:  var(--cor1);
+                             }
+                            
+                             #menu > ol {
+                                                    
+                                       float: right;
+                             }
+
+
+                                 #menu > ol > li { 
+                                                
+                                       display: inline;
+                                       padding: 3px;
+                                    }
+
+                                         #menu > ol > li > a{
+                                                color: var(--cor4);
+                                                text-decoration: none;
+                                                padding:8px;
+                                                
+                                    }
+                                         #menu > ol > li > a:hover{
+
+                                                background-color: var(--cor4);
+                                                color: white;
+                                                padding: 8px ;
+                                                border-radius: 2px;
+
+
+                                    }
+
+
+
+
+
+
+
+article{
+           
+            background-color: rgba(211, 211, 211, 0.699);          
+            width: 900px;
+            height: 1000px;
+            margin: 0px auto 0px auto;
+            
+}
+
+
+
+article > .nossos_clientes {
+                    float: right;
+                    padding: 30px 50px 0px 0px;
+                    
+                }
+
+ div > .clientes {
+
+                            background-color: #2A3F61;
+                            padding: 1px 1px 100px 1px;
+                            height: 270px;
+                            width: 370px;
+                            border-radius: 0px 0px 10px 0px;
+                            box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.322);
+                            
+         }       
+
+
+
+article > .nossos_trabalhos{
+    
+               float: left;
+               padding: 30px 0px 0px 50px;
+}
+    
+     div > .trabalhos{ 
+
+                background-color: #2A3F61;
+                padding: 1px 1px 100px 1px;
+                height: 270px;
+                width: 370px;
+                border-radius: 0px 0px 10px 0px;
+                box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.322);
+            }
+
+            article > .quem_somos{
+    
+                float: right;
+                padding: 30px 50px 0px 0px;
+            }
+
+
+               div > .quem{ 
+
+                background-color: #2A3F61;
+                padding: 1px 1px 100px 1px;
+                height: 270px;
+                width: 370px;
+                border-radius: 0px 0px 10px 0px;
+                box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.322);
+            }
+
+            
+
+            article > .nosso_orcamento{
+    
+                  float: left;
+                  padding: 30px 0px 0px 50px;
+                }
+    
+     div > .orcamento{ 
+
+                background-color: #2A3F61;
+                padding: 1px 1px 100px 1px;
+                height: 270px;
+                width: 370px;
+                border-radius: 0px 0px 10px 0px;
+                box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.322);
+            }
+
+
+
+    p {
+        color: white;
+      
+    }
+
+table{
+
+    padding: 100px 2px 50px 2px;
+    margin: auto;
+
+}
+
+
+tr > td {
+
+            height: 60px;
+            width: 120px;
+}
+
+td > img {
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.322);
+}
+
+        
+  #container{
+   overflow-x: auto;
+
+}
+
+
+
+
+footer{
+
+    background-color: #2A3F61;
+    height: 300px;
+    width: 100%;
+    
+    
+}
+
+
+
+@media screen and ( max-width: 768px){  
+
+    article > .nossos_clientes,article > .nossos_trabalhos, article > .quem_somos,article > .nosso_orcamento {
+   
+                        float: none;
+                        margin: auto;
+                        padding: 50px;
+                        }
+                    
+                        #menu > ol {
+                                                    
+                            float: left;
+                        }
+
+                        article {
+                        
+                            height: 1800px;
+                             }
+
+
+                    }
+
+    @media screen and (max-width: 600px) {                   
+                    header {
+
+                        height: 140px;
+
+                     }   
+
+
+
+                     #topo {
+                        
+                        height: 130px;
+                        border-top: 5px;
+                        border: #2A3F61;
+
+                 }        
+
+
+
+                     #menu {
+                            height: 130px;
+                    }         
+
+
+
+                     #menu > ol {
+                    
+                            float:none;
+                            text-align: center;
+                            padding: 3px
+
+                         }   
+
+                    #menu > ol > li { 
+                 
+                            display: grid;
+                            padding: 3px
+                           
+                        }
+                        #menu > ol > li > a { 
+
+                            padding: 3px;
+                        }
+
+
+                    #menu > ol > li > a:hover{
+
+                            height: 100%;
+                            padding: 3px;
+                    }       
+
+
+                    }
+
+
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
