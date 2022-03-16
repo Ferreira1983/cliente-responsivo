@@ -105,94 +105,112 @@
 
 
 
-article{
+
+                                    article{
            
-            background-color: rgba(211, 211, 211, 0.699);          
-            width: 900px;
-            height: 1000px;
-            margin: 0px auto 0px auto;
-            
-}
-
-
-
-article > .nossos_clientes {
-                    float: right;
-                    padding: 30px 50px 0px 0px;
-                    
-                }
-
- div > .clientes {
-
-                            background-color: #2A3F61;
-                            padding: 1px 1px 100px 1px;
-                            height: 270px;
-                            width: 370px;
-                            border-radius: 0px 0px 10px 0px;
-                            box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.322);
-                            
-         }       
-
-
-
-article > .nossos_trabalhos{
     
-               float: left;
-               padding: 30px 0px 0px 50px;
-}
-    
-     div > .trabalhos{ 
-
-                background-color: #2A3F61;
-                padding: 1px 1px 100px 1px;
-                height: 270px;
-                width: 370px;
-                border-radius: 0px 0px 10px 0px;
-                box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.322);
-            }
-
-            article > .quem_somos{
-    
-                float: right;
-                padding: 30px 50px 0px 0px;
-            }
-
-
-               div > .quem{ 
-
-                background-color: #2A3F61;
-                padding: 1px 1px 100px 1px;
-                height: 270px;
-                width: 370px;
-                border-radius: 0px 0px 10px 0px;
-                box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.322);
-            }
-
-            
-
-            article > .nosso_orcamento{
-    
-                  float: left;
-                  padding: 30px 0px 0px 50px;
-                }
-    
-     div > .orcamento{ 
-
-                background-color: #2A3F61;
-                padding: 1px 1px 100px 1px;
-                height: 270px;
-                width: 370px;
-                border-radius: 0px 0px 10px 0px;
-                box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.322);
-            }
-
-
-
-    p {
-        color: white;
-      
-    }
-
+                                        background-color: #d3d3d3b2;    
+                                        display: grid;
+                                        grid-template-columns: 1fr 1fr;
+                                        max-width: 800px;
+                                        margin: auto;
+                                        grid-gap: 20px; 
+                                        align-items: center;     
+                                       
+                                        
+                                    }
+                                    
+                                    
+                                    
+                                    article > .nossos_clientes {
+                                    
+                                        margin: auto;
+                                        padding: 10px;
+                                    
+                                                
+                                                           
+                                                        
+                                    
+                                                
+                                                
+                                                
+                                            }
+                                    
+                                    div > .clientes {
+                                    
+                                                        background-color: #2A3F61;
+                                                        padding: 1px 1px 100px 1px;
+                                                        height: 270px;
+                                                        width: 370px;
+                                                        border-radius: 0px 0px 10px 0px;
+                                                        box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.322);
+                                                        
+                                     }       
+                                    
+                                    
+                                    
+                                    article > .nossos_trabalhos{
+                                            
+                                            margin: auto;
+                                            padding: 10px;
+                                    
+                                          
+                                           
+                                    }
+                                    
+                                    div > .trabalhos{ 
+                                    
+                                            background-color: #2A3F61;
+                                            padding: 1px 1px 100px 1px;
+                                            height: 270px;
+                                            width: 370px;
+                                            border-radius: 0px 0px 10px 0px;
+                                            box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.322);
+                                        }
+                                    
+                                        article > .quem_somos{
+                                    
+                                            margin: auto;
+                                            padding: 10px;
+                                    
+                                        }
+                                    
+                                    
+                                           div > .quem{ 
+                                    
+                                            background-color: #2A3F61;
+                                            padding: 1px 1px 100px 1px;
+                                            height: 270px;
+                                            width: 370px;
+                                            border-radius: 0px 0px 10px 0px;
+                                            box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.322);
+                                            margin-top: 30px;
+                                        }
+                                    
+                                        
+                                    
+                                        article > .nosso_orcamento{
+                                    
+                                            margin: auto;
+                                            padding: 10px;
+                                              
+                                            }
+                                    
+                                    div > .orcamento{ 
+                                    
+                                            background-color: #2A3F61;
+                                            padding: 1px 1px 100px 1px;
+                                            height: 270px;
+                                            width: 370px;
+                                            border-radius: 0px 0px 10px 0px;
+                                            box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.322);
+                                            margin-top: 30px;
+                                        }
+                                    
+                                    
+                                    
+                                    p {
+                                    color: white;}
 table{
 
     padding: 100px 2px 50px 2px;
@@ -233,42 +251,27 @@ footer{
 
 @media screen and ( max-width: 768px){  
 
-    article > .nossos_clientes,article > .nossos_trabalhos, article > .quem_somos,article > .nosso_orcamento {
-                        width: 100%;
-                        float: none;
-                        margin: auto;
-                        
-                        }
                     
                         #menu > ol {
                             width: 100%;                         
                             float: left;
                         }
 
-                        article {
-                        
-                            height: 2000px;
-                            width: 100%;
-                             }
-
 
                     }
 
     @media screen and (max-width: 600px) {                   
+                
+                article{
+
+                    grid-template-columns: 1fr;
+
+
+                }
         
-        article > .nossos_clientes, article > .nossos_trabalhos, article > .quem_somos,article > .nosso_orcamento {
-   
-           float:left;
-           
-           padding-left: 30px;
-        }
             
-            
-        
-        
-        
-        
-        header {
+             
+                header {
 
                         height: 140px;
                         width: 100%;
