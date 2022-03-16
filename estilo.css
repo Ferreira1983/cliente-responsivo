@@ -55,7 +55,7 @@
             font-family: 'arcond';
             color: var(--cor3);
             text-shadow: 1px 1px black;
-                    
+           width: 100%;         
     }
 
 
@@ -234,14 +234,14 @@ footer{
 @media screen and ( max-width: 768px){  
 
     article > .nossos_clientes,article > .nossos_trabalhos, article > .quem_somos,article > .nosso_orcamento {
-   
+                        width: 100%;
                         float: none;
                         margin: auto;
                         
                         }
                     
                         #menu > ol {
-                                                    
+                            width: 100%;                         
                             float: left;
                         }
 
@@ -259,6 +259,7 @@ footer{
         article > .nossos_clientes, article > .nossos_trabalhos, article > .quem_somos,article > .nosso_orcamento {
    
            float:left;
+           
            padding-left: 30px;
         }
             
